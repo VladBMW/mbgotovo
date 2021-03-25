@@ -125,6 +125,9 @@ header{
 .slogan-down{
     margin-bottom: 30px;
 }
+.Description{
+    position: relative;
+}
 
 .img-description{
     width: 566px;
@@ -230,6 +233,7 @@ right: 0;
 .cupofCoffe{
     margin-left: 300px;
     margin-top: 50px;
+    
 }
 
 .macbook{
@@ -514,7 +518,14 @@ right: 0;
     .img-description , .tt , .gg{
         display: none;
     }
-
+    .slogan{
+        font-size: 35pt !important;
+    }
+    .text-fish{
+        width: 100% !important;
+    }
+    .dd , .red-markOfSection3{ margin-top: 0 !important;}
+    .pen-holder{margin-bottom: 0;}
 
     .main-text{
         font-size: 40pt;
@@ -530,7 +541,7 @@ right: 0;
         text-align: center;
     }
    
-    .red-markOfSection3{
+     .red-mark{
         margin-top: 30px;
     }
     .cupofCoffe{
@@ -567,23 +578,30 @@ right: 0;
     .form-control-lg{
         margin-top: 15px;
     }
-    .support , .ab{
-        display: flex;
-        justify-content:center;
-    }
-    .underSupport , .uS {
+    .Start , .about{
+        width: 100% !important;
         text-align: center;
     }
-    .sub , .subscribe{
-        width: 100%;
-        margin: auto;
-        text-align: center;
+    .logo-of-footer{
+        font-size: 35pt;
+    }
+    .ex{
+        font-size: 26pt;
+    }
+    .sub {
+        padding-left: 30px !important;
     }
     .titleOfGroup{
         font-size: 25pt !important;
     }
-    .text-fishofSection3 , .textFishOfHuman {
-        font-size: 13pt !important;
+    .textFishOfHuman {
+        font-size: 10pt !important;
+    }
+    .text-fishofSection3{
+        font-size: 12pt !important;
+    }
+    .underNameOfHuman{
+        line-height: 20pt;
     }
     
     
@@ -644,10 +662,19 @@ right: 0;
     .naturePicture{
         width: 80px;
     }
-    .titleOfGroup{
-        font-size: 22pt !important;
     
+    .sub {
+      padding-left: 0 !important; 
     }
+    .AboutUs {
+       
+        text-align: right !important;
+       
+  }
+  .ab{
+      margin-left: 95px;
+  }
+    
     .Start{
         text-align: center;
     }
@@ -714,6 +741,15 @@ right: 0;
       .about{
          width: 100%;
       }
+        .support , .underSupport , .titleOfGroup , .subscribe , .sub {
+            text-align: center !important;
+            margin-left: 0;
+            float: none;    
+        }
+        .support{
+            display: flex;
+         justify-content: center;
+        }
     
 
    }
@@ -778,9 +814,7 @@ right: 0;
     }
     @media (max-width: 1200px) { 
         
-        .text-fish{
-            width: 70% !important;
-        }
+        
         .text-fishofSection3{
             width: 100% !important;
         }
@@ -826,8 +860,7 @@ right: 0;
             margin-top: 5px !important;
         }
         .rght {
-            margin-left: 0;
-            width: 77%;
+            
             margin-top: 10px;
 
         }
@@ -854,6 +887,9 @@ right: 0;
         }
         .macbook{
             width: 40%;
+        }
+        .rght{
+            margin-left: 5px;
         }
        
      }
